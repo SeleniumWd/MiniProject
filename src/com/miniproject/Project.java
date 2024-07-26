@@ -151,7 +151,7 @@ public static void main(String[] args) throws AWTException, InterruptedException
    File desc = new File("./ScreenShort/img1.png");
    FileHandler.copy(source, desc);
    Thread.sleep(3000);
-   driver.quit();
+//   driver.quit();
 }
 
 }
